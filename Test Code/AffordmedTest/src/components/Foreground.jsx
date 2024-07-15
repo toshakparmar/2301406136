@@ -45,7 +45,7 @@ function Foreground() {
           const response = await axios.get(`http://20.244.56.144/test/companies/AMZ/categories/${productCategory}/products?top=${numProduct}&minPrice=${minPrice}&maxPrice=${maxPrice}`, {
             headers: {
             //   'Authorization': 'Bearer'+ authToken // Replace with your actual token
-            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzIxMDM4ODczLCJpYXQiOjE3MjEwMzg1NzMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjBiMTMwYWQ5LTAzMDItNDk2Yy04NmE2LTNhZWZhYzQ5ZDA3MSIsInN1YiI6InRvc2hha3Bhcm1hcjIwMDBAZ21haWwuY29tIn0sImNvbXBhbnlOYW1lIjoiQ29kZVNtYWNoZXJzIiwiY2xpZW50SUQiOiIwYjEzMGFkOS0wMzAyLTQ5NmMtODZhNi0zYWVmYWM0OWQwNzEiLCJjbGllbnRTZWNyZXQiOiJ5aklyTkVpS0Ntdm5pSElEIiwib3duZXJOYW1lIjoiVG9zaGFrIFBhcm1hciIsIm93bmVyRW1haWwiOiJ0b3NoYWtwYXJtYXIyMDAwQGdtYWlsLmNvbSIsInJvbGxObyI6IjIzMDE0MDYxMzYifQ.bW4A70HmpYLX-oDsu_s04C5DydQ6nu-P6o56z-chYwI'
+            'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzIxMDQxNjk3LCJpYXQiOjE3MjEwNDEzOTcsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjBiMTMwYWQ5LTAzMDItNDk2Yy04NmE2LTNhZWZhYzQ5ZDA3MSIsInN1YiI6InRvc2hha3Bhcm1hcjIwMDBAZ21haWwuY29tIn0sImNvbXBhbnlOYW1lIjoiQ29kZVNtYWNoZXJzIiwiY2xpZW50SUQiOiIwYjEzMGFkOS0wMzAyLTQ5NmMtODZhNi0zYWVmYWM0OWQwNzEiLCJjbGllbnRTZWNyZXQiOiJ5aklyTkVpS0Ntdm5pSElEIiwib3duZXJOYW1lIjoiVG9zaGFrIFBhcm1hciIsIm93bmVyRW1haWwiOiJ0b3NoYWtwYXJtYXIyMDAwQGdtYWlsLmNvbSIsInJvbGxObyI6IjIzMDE0MDYxMzYifQ.ZXkR87iE8EdI0u9Rp-O-HNc9y4zTJIqdwNHSOkC7CBw'
             }
           });
           setProducts(response.data);
