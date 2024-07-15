@@ -18,6 +18,7 @@ To run the project, use the following command:
 npm start
 ```
 
+### Open Test Code Folder(Coding File)..
 
 ## Question 1:
 
@@ -49,6 +50,7 @@ To Run Frontend..
     npm run dev
 ```
 
-### Output Screenshort and Demo Vedio provide in Output Folder, Please check it out..
+### Output Files 
+## Screenshort and Demo Vedio provide in Output Folder, Please check it out..
 
   
