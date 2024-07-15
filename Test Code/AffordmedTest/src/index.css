@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title-text-color {
+  /* color: rgb(240, 152, 19); */
+  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+}
+
+.brand-text-color, .btn-text-color  {
+  color: rgb(240, 152, 19);
+}
+.border-color{
+  border-color: rgb(240, 152, 19);
+}
+.brand-back-color {
+  background-color: rgb(240, 152, 19);;
+}
+.brand-border-color {
+  border-color: rgb(240, 152, 19);
+}
+

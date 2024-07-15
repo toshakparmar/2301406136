@@ -1,0 +1,8 @@
+{
+    "companyName": "CodeSmachers",
+    "clientID": "0b130ad9-0302-496c-86a6-3aefac49d071",
+    "clientSecret": "yjIrNEiKCmvniHID",
+    "ownerName": "Toshak Parmar",
+    "ownerEmail": "toshakparmar2000@gmail.com",
+    "rollNo": "2301406136"
+}
